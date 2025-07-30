@@ -10,7 +10,7 @@ beforeEach(() => {
 });
 it('First test case', ()=>{
 
-cy.log("Inside First test case");
+cy.log("Inside First test cases");
 id = "token"
 });
 it('Second test case', ()=>{

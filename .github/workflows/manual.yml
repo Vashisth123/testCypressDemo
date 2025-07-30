@@ -36,3 +36,8 @@ jobs:
           record: false # Set this to 'true' if you are recording on the Cypress Dashboard
         env:
           CI: true
+      - name: Upload Mochawesome Reports
+        uses: actions/upload-artifact@v3
+        with:
+            name: mochawesome-report
+            path: cypress/reports

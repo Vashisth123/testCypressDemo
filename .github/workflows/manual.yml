@@ -32,7 +32,7 @@ jobs:
       - name: Run Cypress Tests
         uses: cypress-io/github-action@v5  # Use the latest version of the Cypress GitHub Action
         with:
-          browser:chrome
-          record:false  # Set this to 'true' if you are recording on the Cypress Dashboard
+          browser: chrome
+          record: false  # Set this to 'true' if you are recording on the Cypress Dashboard
         env:
           CI: true
